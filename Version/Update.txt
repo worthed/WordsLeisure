@@ -1,8 +1,7 @@
 {
 toUser=true,
 Ver="1.12",
-Changes=[[
-首个 Alpha 版本]],
+Changes=[[首个 Alpha 版本]],
 apkSize=1.24,
-apkUrl="",
+apkUrl="https://gitee.com/ayaka_ago/WordsLeisure/attach_files/237889/download",
 }
