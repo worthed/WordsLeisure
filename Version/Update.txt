@@ -1,9 +1,8 @@
 {
 toUser=true,
-Ver=1.12,
+Ver="1.12",
 Changes=[[
-首个 Alpha 版本
-]],
+首个 Alpha 版本]],
 apkSize=1.24,
 apkUrl="",
 }
