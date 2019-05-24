@@ -3,5 +3,5 @@ toUser=true,
 Ver="1.12",
 Changes=[[首个 Alpha 版本]],
 apkSize=1.24,
-apkUrl="http://gitee.com/ayaka_ago/WordsLeisure/attach_files/237889/download",
+apkUrl="https://github.com/DOGE-tt/WordsLeisure/releases/download/1.12/WordsLeisure_1.12.apk",
 }
