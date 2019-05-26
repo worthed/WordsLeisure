@@ -1,15 +1,74 @@
 {
-    en={
-        {
-            name="EnjoytheRide-Regular.otf",
-            url="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/en/EnjoytheRide-Regular.otf",
-        },
-        {
-            name="HelloBeautiful.otf",
-            url="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/en/HelloBeautiful.otf",
-        },
-    },
-    cn={
-
-    },
+--英文字体列表
+en={
+{
+name="321Perfect.ttf",
+path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/en/321Perfect.ttf",
+},
+{
+name="804-CAI978.ttf",
+path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/en/804-CAI978.ttf",
+},
+{
+name="AbbeyRoadNF.otf",
+path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/en/AbbeyRoadNF.otf",
+},
+{
+name="Elizabeth.ttf",
+path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/en/Elizabeth.ttf",
+},
+{
+name="EnjoytheRide-Regular.otf",
+path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/en/EnjoytheRide-Regular.otf",
+},
+{
+name="HelloBeautiful.otf",
+path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/en/HelloBeautiful.otf",
+},
+{
+name="SegoeScript Bold.ttf",
+path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/en/SegoeScript%20Bold.ttf",
+},
+{
+name="Springtime Blues.ttf",
+path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/en/Springtime%20Blues.ttf",
+},
+--英文字体列表
+},
+--中文字体列表
+cn={
+{
+name="Heiti SC.ttf",
+path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/cn/Heiti%20SC.ttf",
+},
+{
+name="",
+path="",
+},
+{
+name="",
+path="",
+},
+{
+name="",
+path="",
+},
+{
+name="",
+path="",
+},
+{
+name="",
+path="",
+},
+{
+name="",
+path="",
+},
+{
+name="",
+path="",
+},
+--中文字体列表
+},
 }
