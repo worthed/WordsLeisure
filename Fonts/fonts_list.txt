@@ -1,5 +1,5 @@
 {
-    en-us={
+    en={
         {
             name="EnjoytheRide-Regular.otf",
             url="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/en/EnjoytheRide-Regular.otf",
@@ -9,7 +9,7 @@
             url="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/en/HelloBeautiful.otf",
         },
     },
-    zh-cn={
+    cn={
 
     },
 }
