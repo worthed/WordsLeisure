@@ -1,7 +1,9 @@
 {
 toUser=true,
-Ver="1.12",
-Changes=[[首个 Alpha 版本]],
-apkSize=1.24,
+Ver="1.3.6",
+Changes=[[新增头像壁纸
+新增字体管理
+新增已保存图片的管理]],
+apkSize=0.91,
 apkUrl="https://github.com/DOGE-tt/WordsLeisure/releases/download/1.12/WordsLeisure_1.12.apk",
 }
