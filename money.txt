@@ -1,5 +1,6 @@
 {
 LinearLayout,
+layout_width="fill",
 orientation="vertical",
 {
    FrameLayout,
