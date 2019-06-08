@@ -1,6 +1,6 @@
 {
-toUser=true,
-Ver="11.2",
+toUser=false,
+Ver="1.4.0",
 Changes=[[新增通知页面
 新增心灵鸡汤，云音乐热评句子源
 关于页面微调
