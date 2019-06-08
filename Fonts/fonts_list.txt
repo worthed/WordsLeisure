@@ -23,7 +23,7 @@ size=36692,
 },
 {
 name="EnjoytheRide-Regular.otf",
-path="https://github.com/DOGE-tt/WordsLeisure/blob/master/Fonts/en/HelloBeautiful.otf?raw=true",
+path="https://github.com/DOGE-tt/WordsLeisure/blob/master/Fonts/en/EnjoytheRide%20Regular.otf?raw=true",
 size=446216,
 },
 {
