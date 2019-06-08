@@ -1,4 +1,4 @@
-﻿{
+{
 toUser=true,
 Ver="1.3.6",
 Changes=[[新增通知页面
@@ -6,7 +6,7 @@ Changes=[[新增通知页面
 关于页面微调
 优化字体管理
 功能细化]],
-apkSize=0.91,
+apkSize="0.91",
 apkUrl="https://github.com/DOGE-tt/WordsLeisure/releases/download/1.3.6/WordsLeisure.apk",
 coolapkUrl="https://www.coolapk.com/apk/words.leisure.wallpapermaker",
 }
