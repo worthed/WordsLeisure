@@ -1,5 +1,5 @@
 {
-toUser=false,
+toUser=true,
 Ver="1.4.0",
 Changes=[[新增通知页面
 新增心灵鸡汤，云音乐热评句子源
@@ -7,6 +7,6 @@ Changes=[[新增通知页面
 优化字体管理
 功能细化]],
 apkSize="0.91",
-apkUrl="https://github.com/DOGE-tt/WordsLeisure/releases/download/1.3.6/WordsLeisure.apk",
+apkUrl="https://www.lanzous.com/i4hrzwf",
 coolapkUrl="https://www.coolapk.com/apk/words.leisure.wallpapermaker",
 }
