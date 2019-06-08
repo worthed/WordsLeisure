@@ -1,4 +1,4 @@
-﻿{
+{
 toUser=true,
 Ver="11.2",
 Changes=[[新增通知页面
