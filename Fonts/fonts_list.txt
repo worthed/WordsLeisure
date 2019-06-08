@@ -1,5 +1,5 @@
 {
---英文字体列表
+--鑻辨枃瀛椾綋鍒楄〃
 en={
 {
 name="321Perfect.ttf",
@@ -23,7 +23,7 @@ size=36692,
 },
 {
 name="EnjoytheRide-Regular.otf",
-path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/en/EnjoytheRide-Regular.otf",
+path="https://github.com/DOGE-tt/WordsLeisure/blob/master/Fonts/en/HelloBeautiful.otf?raw=true",
 size=446216,
 },
 {
@@ -41,50 +41,50 @@ name="Springtime Blues.ttf",
 path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/en/Springtime%20Blues.ttf",
 size=26132,
 },
---英文字体列表
+--鑻辨枃瀛椾綋鍒楄〃
 },
---中文字体列表
+--涓枃瀛椾綋鍒楄〃
 cn={
 {
 name="Heiti SC.ttf",
-path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/cn/Heiti%20SC.ttf",
+path="https://github.com/DOGE-tt/WordsLeisure/blob/master/Fonts/cn/Heiti%20SC.ttf?raw=true",
 size=14749652,
 },
 {
 name="LiuLi.ttf",
-path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/cn/LiuLi.ttf",
+path="https://github.com/DOGE-tt/WordsLeisure/blob/master/Fonts/cn/LiuLi.ttf?raw=true",
 size=6601604,
 },
 {
 name="MSmart HK Bold.ttf",
-path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/cn/MSmart%20HK%20Bold.ttf",
+path="https://github.com/DOGE-tt/WordsLeisure/blob/master/Fonts/cn/MSmart%20HK%20Bold.ttf?raw=true",
 size=4009212,
 },
 {
 name="MaoBi XingShu.ttf",
-path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/cn/MaoBi%20XingShu.ttf",
+path="https://github.com/DOGE-tt/WordsLeisure/blob/master/Fonts/cn/MaoBi%20XingShu.ttf?raw=true",
 size=5014804,
 },
 {
 name="MusashiStd Regular.otf",
-path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/cn/MusashiStd%20Regular.otf",
+path="https://github.com/DOGE-tt/WordsLeisure/blob/master/Fonts/cn/MusashiStd%20Regular.otf?raw=true",
 size=9886292,
 },
 {
 name="YuanLing.TTF",
-path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/cn/YuanLing.TTF",
+path="https://github.com/DOGE-tt/WordsLeisure/blob/master/Fonts/cn/YuanLing.TTF?raw=true",
 size=13945872,
 },
 {
 name="ZHSRuiXian.ttf",
-path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/cn/ZHSRuiXian.ttf",
+path="https://github.com/DOGE-tt/WordsLeisure/blob/master/Fonts/cn/ZHSRuiXian.ttf?raw=true",
 size=13293084,
 },
 {
 name="c283 KaiShu.ttf",
-path="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Fonts/cn/c283%20KaiShu.ttf",
+path="https://github.com/DOGE-tt/WordsLeisure/blob/master/Fonts/cn/c283%20KaiShu.ttf?raw=true",
 size=9708660,
 },
---中文字体列表
+--涓枃瀛椾綋鍒楄〃
 },
 }
