@@ -1,12 +1,9 @@
 {
 toUser=true,
-Ver="1.4.0",
-Changes=[[新增通知页面
-新增心灵鸡汤，云音乐热评句子源
-关于页面微调
-优化字体管理
-功能细化]],
-apkSize="0.91",
-apkUrl="https://www.lanzous.com/i4hrzwf",
+Ver="1.4.01",
+Changes=[[修复通知推送跳转的问题
+请使用“浏览器下载”进行更新]],
+apkSize="0.94",
+apkUrl="https://www.lanzous.com/i4hydve",
 coolapkUrl="https://www.coolapk.com/apk/words.leisure.wallpapermaker",
 }
