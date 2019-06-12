@@ -9,7 +9,7 @@ orientation="vertical",
    layout_gravity="center",
   {
    TextView,
-   text="啊名",
+   text="啊明",
    textSize="16sp",
    textColor=0xff000000,
    layout_gravity="left|center",
