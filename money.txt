@@ -134,7 +134,7 @@ orientation="vertical",
   {
    TextView,
    textSize="16sp",
-   text="2960****59",
+   text="2402****85",
    textColor=0xff444444,
    layout_height="fill",
    layout_gravity="center|right",
