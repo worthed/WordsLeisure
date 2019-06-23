@@ -1,0 +1,7 @@
+{
+title="闲言App 官方贴吧",
+content=[[点击查看 闲言App 官方贴吧，与四海吧友交流互水。]],
+time="19.6.23",
+type="官方",
+link="https://tieba.baidu.com/f?kw=闲言app&ie=utf-8",
+}
