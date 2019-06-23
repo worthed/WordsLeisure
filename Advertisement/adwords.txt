@@ -1,4 +1,4 @@
-｛
+{
 cn=[[我们是文字狂热迷]],
 en=[[We are fascinated by words]],
-｝
+}
