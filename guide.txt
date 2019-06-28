@@ -13,6 +13,6 @@ desc={
 {"联网资源的使用",[[您可在 App 内随意使用网络资源（包括但不限于字体，头像壁纸等），网络资源可能受到版权保护。App 所有网络资源均未进行商业使用，如有侵权，请联系开发者。]],"guide/font.png"},
 {"页面提示无内容",[[在部分页面中，数据未加载成功或无数据，都会展示无内容的提示。部分网络资源页面长期无数据，可能是网络或网站问题所导致的。]],"guide/none.png"},
 },
-toppic="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Images/3.jpg",
+toppic="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Images/1.png",
 vid="https://www.bilibili.com/video/av54104839",
 }
