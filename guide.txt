@@ -17,8 +17,7 @@ toppic="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Images/3.jpg",
 vid="https://www.bilibili.com/video/av54104839",
 page={
 {"如果还有机会，你还会追求ta吗？","https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Images/1.png"},
-{"",""},
-{"",""},
-{"",""},
+{"每天辛苦工作，我更想呆在什么都有的梦里","https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Images/2.png"},
+{"如果还有机会，你还会追求ta吗？","https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Images/1.png"},
 },
 }
