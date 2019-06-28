@@ -5,7 +5,30 @@ orientation="vertical",
 {
    FrameLayout,
    layout_width="fill",
-   padding="4.5%w",
+   padding="16dp",
+   layout_gravity="center",
+  {
+   TextView,
+   text="一夜清欢",
+   textSize="16sp",
+   textColor=文字色 or 0xff000000,
+   layout_gravity="left|center",
+   layout_height="fill",
+   gravity="center",
+  },
+  {
+   TextView,
+   textSize="16sp",
+   text="1240****87",
+   textColor=次要文字色 or 0xff444444,
+   layout_height="fill",
+   layout_gravity="center|right",
+  },
+ },
+{
+   FrameLayout,
+   layout_width="fill",
+   padding="16dp",
    layout_gravity="center",
   {
    TextView,
@@ -28,7 +51,7 @@ orientation="vertical",
 {
    FrameLayout,
    layout_width="fill",
-   padding="4.5%w",
+   padding="16dp",
    layout_gravity="center",
   {
    TextView,
@@ -51,7 +74,7 @@ orientation="vertical",
 {
    FrameLayout,
    layout_width="fill",
-   padding="4.5%w",
+   padding="16dp",
    layout_gravity="center",
   {
    TextView,
@@ -74,7 +97,7 @@ orientation="vertical",
 {
    FrameLayout,
    layout_width="fill",
-   padding="4.5%w",
+   padding="16dp",
    layout_gravity="center",
   {
    TextView,
@@ -97,7 +120,7 @@ orientation="vertical",
  {
    FrameLayout,
    layout_width="fill",
-   padding="4.5%w",
+   padding="16dp",
    layout_gravity="center",
   {
    TextView,
@@ -120,7 +143,7 @@ orientation="vertical",
 {
    FrameLayout,
    layout_width="fill",
-   padding="4.5%w",
+   padding="16dp",
    layout_gravity="center",
   {
    TextView,
@@ -143,7 +166,7 @@ orientation="vertical",
 {
    FrameLayout,
    layout_width="fill",
-   padding="4.5%w",
+   padding="16dp",
    layout_gravity="center",
   {
    TextView,
@@ -166,7 +189,7 @@ orientation="vertical",
  {
    FrameLayout,
    layout_width="fill",
-   padding="4.5%w",
+   padding="16dp",
    layout_gravity="center",
   {
    TextView,
