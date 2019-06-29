@@ -15,6 +15,7 @@ desc={
 },
 toppic="https://gitee.com/ayaka_ago/WordsLeisure/raw/master/Images/3.jpg",
 vid="https://www.bilibili.com/video/av54104839",
+vid_preview="https://i2.hdslb.com/bfs/archive/4147bcbeca757c0da3f72648d287ee263b269835.jpg",
 page={
 "http://image.coolapk.com/feed/2019/0618/00/1037358_bb8dd9d0_8436_5947@720x1280.jpeg.m.jpg",
 "http://image.coolapk.com/feed/2019/0627/12/2088126_92bb3cef_1478_2603@1080x1876.jpeg.m.jpg",
