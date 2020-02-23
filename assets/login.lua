@@ -1,0 +1,204 @@
+require "import"
+import "str"
+
+config=...
+
+this.setContentView(loadlayout({
+  RelativeLayout,
+  layout_width="fill",
+  layout_height="fill",
+  --visibility=4,
+  backgroundColor=背景色,
+  --orientation="vertical",
+  --elevation="2%w",
+  paddingTop=状态栏高度,
+  {
+    RelativeLayout,
+    layout_width="fill",
+    layout_height="56dp" ,
+    gravity="left|center",
+    padding="16dp",
+    --backgroundColor=0xffffffff,
+    elevation="2dp",
+    paddingTop="8dp",
+    paddingBottom="8dp",
+    {
+      ImageView,
+      src="drawable/back.png",
+      layout_height="fill",
+      layout_width="44dp",
+      foreground=波纹(波纹色),
+      onClick=function ()
+        this.finish()
+      end,
+      padding="9dp",
+      colorFilter=图标色,
+    },
+  },
+  {
+    LinearLayout,
+    layout_height="-1";
+    layout_width="-1";
+    orientation="vertical",
+    {
+      LinearLayout,
+      paddingTop="56dp" ,
+    };
+    {
+      LinearLayout;
+      orientation="vertical";
+      layout_height="-1";
+      layout_width="-1";
+      {
+        TextView,
+        layout_width="fill",
+        layout_height="112dp",
+        gravity="left|bottom",
+        text="登录",
+        textSize="32sp",
+        textColor=文字色,
+        padding="64dp";
+        paddingTop="0";
+        paddingBottom="16dp";
+        layout_marginBottom="16dp";
+      },
+      {
+        MEditText
+        {
+          textSize="14sp",
+          id="edit1",
+          hint="账号";
+          textColor=文字色;
+          HintTextColor=次要文字色;
+          SingleLine=true;
+          layout_width="-1";
+          layout_height="-2";
+        };
+        layout_marginLeft="64dp";
+        layout_marginRight="64dp";
+        layout_margin="16dp";
+        layout_marginBottom="0";
+      };
+      {
+        MEditText
+        {
+          textSize="14sp",
+          id="edit2",
+          hint="密码";
+          textColor=文字色;
+          HintTextColor=次要文字色;
+          SingleLine=true;
+          layout_width="-1";
+          layout_height="-2";
+        };
+        layout_marginLeft="64dp";
+        layout_marginRight="64dp";
+        layout_margin="16dp";
+        layout_marginBottom="8dp";
+      };
+      {
+        CardView;
+        layout_width="-1";
+        layout_height="-2";
+        Radius="4dp";
+        cardBackgroundColor=背景色;
+        layout_marginTop="16dp";
+        layout_marginLeft="64dp";
+        layout_marginRight="64dp";
+        layout_marginBottom="8dp";
+        cardElevation="0dp";
+        {
+          TextView;
+          layout_width="-1";
+          layout_height="-1";
+          textSize="16sp";
+          paddingRight="21dp";
+          paddingLeft="21dp";
+          paddingTop="12dp";
+          paddingBottom="12dp";
+          Text="登录";
+          foreground=波纹(波纹色),
+          textColor=文字色;
+          id="button";
+          gravity="center";
+          backgroundColor=0x219e9e9e;
+        };
+      };
+      {
+        LinearLayout;
+        layout_width="-1";
+        layout_height="-2";
+        sort("还没有账号？"),
+        paddingRight="64dp";
+        paddingLeft="64dp";
+        paddingTop="8dp";
+        paddingBottom="0";
+      };
+      {
+        LinearLayout;
+        layout_width="-1";
+        layout_height="-2";
+        layout_marginTop="8dp";
+        layout_marginLeft="64dp";
+        layout_marginRight="64dp";
+        layout_marginBottom="8dp";
+        {
+          TextView;
+          layout_width="-1";
+          layout_height="-1";
+          textSize="16sp";
+          paddingRight="21dp";
+          paddingLeft="21dp";
+          paddingTop="12dp";
+          paddingBottom="12dp";
+          Text="注册";
+          textColor=文字色;
+          foreground=波纹(波纹色),
+          id="button2";
+          gravity="center";
+        };
+      };
+    };
+  },
+}))
+
+import "android.text.InputType"
+import "android.text.method.PasswordTransformationMethod"
+
+edit2.setInputType(InputType.TYPE_TEXT_VARIATION_PASSWORD)
+edit2.setTransformationMethod( PasswordTransformationMethod());
+
+activity.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_ALT_FOCUSABLE_IM)
+
+button.onClick=function()
+  toast("正在登录")
+  username=edit1.Text
+  password=edit2.Text
+  登录账号(url,key,username,password,httk,function(返回值)
+    if 返回值=="401" then
+      toast("出现异常！")
+     else
+      data=cjson.decode(返回值)
+      if data["code"]=="1" then
+        toast("登录成功")
+        activity.setSharedData("username",username)
+        activity.setSharedData("password",password)
+        activity.setSharedData("vip_time",data["vip_time"])
+        if config~="sup" then
+          activity.getActivity("soup").call("更新信息")
+          activity.result({"login_successful"})
+         else
+          activity.newActivity("sup")
+          activity.finish()
+        end
+       elseif data["code"]=="0" then
+        toast(data["message"])
+      end
+    end
+  end)
+end
+
+button2.onClick=function()
+  activity.newActivity("register")
+  activity.finish()
+end
