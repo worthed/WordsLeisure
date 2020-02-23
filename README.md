@@ -1,3 +1,4 @@
-# Words Leisure
-
-闲言，我们是文字狂热迷。
+# 已开源
+### 使用 Lua 语言编写
+### 使用新版 AppLua 编写
+### 由 Ayaka_Ao 与 MUK 开发
